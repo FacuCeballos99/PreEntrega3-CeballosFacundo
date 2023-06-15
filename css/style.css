@@ -1,0 +1,23 @@
+.navitem {
+    width: 45px;
+}
+.colornavmio {
+    background-color: #003391;
+}
+.imgtamaños {
+    width: 450px;
+}
+.titulo {
+background-color: rgb(3, 3, 59);
+color: #f3b229;
+}
+.colorh3 {
+    color: #f3b229;
+    margin: 15px;
+}
+.colornavmio2 {
+    color: antiquewhite !important;
+}
+.activo1 {
+text-decoration: underline;
+}
