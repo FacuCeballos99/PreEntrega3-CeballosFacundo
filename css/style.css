@@ -4,6 +4,13 @@
 .colornavmio {
     background-color: #003391;
 }
+.headermio {
+    position: sticky;
+    z-index: 1030;
+    color: #fff;
+    max-width: 100vw;
+    top: 0px;
+}
 .imgtamaños {
     width: 450px;
 }
@@ -30,4 +37,31 @@ text-decoration: underline;
 }
 .letrasocios {
     font-size: 25px;
+}
+.listaclub {
+    display: block;
+    padding: 0;
+    margin: 8px;
+    color: #162229;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700
+}
+.listaclub2 {
+    list-style: none;
+    display: block;
+    padding: 4px 18px 20px 21px;
+    color: #1c1e36;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 42px;
+}
+h4 {
+    margin-top: 20px;
+}
+.borderescudos {
+    margin: 10px 0px 10px 0px;
+    border-bottom: solid 1px #f3b229;
 }
