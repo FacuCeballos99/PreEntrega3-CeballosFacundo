@@ -62,6 +62,11 @@ h4 {
     margin-top: 20px;
 }
 .borderescudos {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 5px 10px 5px;
     border-bottom: solid 1px #f3b229;
+}
+.borderescudos2 {
+    margin: 15px 0px 15px 0px;
+    border-bottom: solid 2px #003391;
+    font-size: 25px;
 }
