@@ -21,3 +21,13 @@ color: #f3b229;
 .activo1 {
 text-decoration: underline;
 }
+.accesosbombonera {
+    font-size: 20px;
+    background-color: #212529;
+    color: #f3b229;
+    padding: 10px;
+    margin: 5px;
+}
+.letrasocios {
+    font-size: 25px;
+}
