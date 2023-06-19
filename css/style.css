@@ -35,9 +35,6 @@ text-decoration: underline;
     padding: 10px;
     margin: 5px;
 }
-.letrasocios {
-    font-size: 25px;
-}
 .listaclub {
     display: block;
     padding: 0;
@@ -69,4 +66,17 @@ h4 {
     margin: 15px 0px 15px 0px;
     border-bottom: solid 2px #003391;
     font-size: 25px;
+}
+.listasocios {
+    list-style: none;
+    display: block;
+    padding: 4px 18px 20px 21px;
+    color: #1c1e36;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 42px
+}
+.ancho-limitado {
+    max-width: 1100px;
 }
