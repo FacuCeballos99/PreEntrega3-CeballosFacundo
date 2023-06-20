@@ -87,3 +87,18 @@ h4 {
     padding: 15px 0px 15px 0px;
     margin-left: 10px;
 }
+.redes i{
+    padding-right: 2vw;
+}
+footer a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+footer h3 {
+    color: azure;
+}
+.contacto1 {
+    background-color: #162229;
+    color: #f3b229;
+}
