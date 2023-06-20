@@ -43,18 +43,37 @@
     </header>
     <main>
      <div class="contacto1">
-        <img src="../imagenes/noticias-header.jpg" alt="">
+        <img src="../imagenes/noticias-header.jpg" class="img-fluid" alt="">
         <h1>Contacto</h1>
         <h2 class="contacto2">Informacion</h2>
         <ul class="contacto2">
          <li><h3>Dias y Horarios de Atencion : De Lunes a Viernes de 13 a 19.30 hs en el Estadio (Brandsen 805)</h3></li>
          <li><h3>Telefono : 351-3202669</h3></li>
          <li><h3>Email : faqceba@hotmail.com</h3></li>
-         <li><a href="">
+         <li><a href="http://wa.me/+5493513202669">
             <i class="bi bi-whatsapp fs-3"></i>
          </a></li>
         </ul>
      </div>
+    </section>
+    <form class="container shadow mb-5 mt-3 colorform">
+        <h3 class="text-center py-4">DEJANOS TU COMENTARIO</h3>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="nombre" placeholder="Ingresar Nombre">
+          <label for="nombre" class="form-label">Ingresa tu nombre</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          <label for="email" class="form-label">Ingresa tu correo</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" id="comentario" rows="9" placeholder="Insertar comentario"></textarea>
+          <label for="comentario" class="form-label">Deja tu comentario</label>
+        </div>
+        <div class="col-6 mx-auto">
+          <button type="submit" class="btn btn-secondary" class="boton-form text-white mb-3 py-2">Submit</button>
+        </div>
+    </form>
     </main>
     <footer class="d-flex justify-content-between align-items-center flex-column flex-lg-row gap-3 pt-3 pb-3 colornavmio">
         <section class="navbar-brand d-flex justify-content-center align-items-center fs-3" href="index.html">
