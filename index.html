@@ -10,25 +10,37 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="headermio">
+    <header>
         <nav class="navbar navbar-expand-lg colornavmio">
            <div class="container-fluid"> 
             <a class="navbar-brand d-flex justify-content-center align-items-center fs-3" href="./index.html">
-                <img src="./imagenes/bocajuniorslogoescudo.png" alt="Logo" width="60" height="auto" class="d-inline-block align-text-top me-4 ms-4">
+                <img src="./imagenes/bocajuniorslogoescudo.png" alt="Logo" width="60px" height="auto" class="d-inline-block align-text-top me-4 ms-4">
             </a>
-           </div>
-            <div class="container-fluid"> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav"> 
             <ul class="navbar-nav cabecera">
-                <li class="nav-item"><a class="nav-link" href="./index.html" class="activo1">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="./pages/club.html">Club</a></li>
-                <li class="nav-item"><a class="nav-link" href="./pages/labombonera.html">La Bombonera</a></li>
-                <li class="nav-item"><a class="nav-link" href="./pages/socios.html">Socios</a></li>
-                <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/club.html">Club</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/labombonera.html">La Bombonera</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/socios.html">Socios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
             </ul>
+            </div>
             </div>
         </nav>
     </header>
-
     <main class="d-flex justify-content-between align-items-center flex-column gap-3 pt-3 pb-3">
         <h1 class="text-center titulo">Boca Juniors</h1>
         <section class="d-flex flex-row mb-3">
