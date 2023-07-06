@@ -1,0 +1,21 @@
+.contacto1 {
+    @extend %colorusado;
+}
+.contacto2 {
+    font-size: 45px;
+    margin: 15px;
+}
+.colorform {
+    background-color: $color-back;
+}
+form {
+    h3 {
+        color: $color-secundario;
+    }
+    .colorbutton {
+    background-color: $color-secundario;
+    padding: nth($size , 1 );
+    margin: nth($size , 1 );
+}
+}
+

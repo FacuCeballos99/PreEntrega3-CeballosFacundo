@@ -1,0 +1,23 @@
+.titulo {
+    background-color: nth($colores , 3 );
+    color: nth($colores, 4 );
+}
+.accesosbombonera {
+    @extend %colorusado
+}
+.accesosbombonera {
+    justify-content: center;
+    padding: nth($size , 2 );
+    margin: nth($size, 1 );
+}
+.propiedades1{
+    padding: 15px, 0px, 15px, 0px;
+    margin-left: nth($size, 2 );
+
+}
+.mapaboca{
+    width: 100%;
+}
+.sindeco{
+    list-style-type: none;
+}

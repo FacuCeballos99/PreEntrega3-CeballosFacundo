@@ -1,0 +1,32 @@
+footer {
+    a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: azure;
+        margin: 5px;
+        padding: 10px;
+    }
+}
+.redes i{
+    padding-right: 1vw;
+}
+footer {
+    h3 {
+        color: nth($colores , 1 );
+    }
+}
+footer {
+    a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: azure;
+    }
+}
+.piedepagina1{
+    padding: nth($size, 3 );
+    margin: nth($size, 1 );
+}
+footer .redes a{
+    padding: 1vw 1.5vw;
+    margin: 0.3vw;
+  }

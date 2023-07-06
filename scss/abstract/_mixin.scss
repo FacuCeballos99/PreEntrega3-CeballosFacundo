@@ -1,0 +1,9 @@
+@mixin miListas($dpl, $pdg, $mrg, $col, $fonsi, $lineh, $fontfa){
+    display: $dpl;
+    padding: $pdg;
+    margin: $mrg;
+    color: $col;
+    font-size: $fonsi;
+    line-height: $lineh;
+    font-family: $fontfa;
+}

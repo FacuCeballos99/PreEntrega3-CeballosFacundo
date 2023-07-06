@@ -1,0 +1,8 @@
+.borderescudos2{
+    margin: map-get($misbordes , mrg );
+    border-bottom: map-get($misbordes , bdbottom );
+    font-size: map-get($misbordes , fsize );
+}
+.listasocios{
+    @include miListas (block, 4px 18px 20px 21px, 25px 5px 10px 15px, #1c1e36, 16px, 30px, sans-serif)
+}

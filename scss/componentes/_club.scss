@@ -1,0 +1,13 @@
+.titulo {
+    background-color: nth($colores , 3 );
+    color: nth($colores, 4 );
+}
+.listaclub {
+    @include miListas(block, 0px, 8px, #162229, 16px, 30px, sans-serif);
+}
+.listaclub2 {
+    @include miListas(block, 4px 18px 20px 21px, 0px, #1c1e36, 16px, 30px, sans-serif)
+}
+.sindeco{
+    list-style-type: none;
+}

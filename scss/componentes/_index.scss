@@ -1,0 +1,16 @@
+main{
+    h1{
+        font-size: 50px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+.h1center {
+    justify-content: center;
+}
+.borderescudos{
+    margin: map-get($misbordes , mrg );
+    border-bottom: map-get($misbordes , bdbottom );
+}
+.inicioback{
+    background-color: rgba($colorbck-index, $alpha: 1.0);
+}

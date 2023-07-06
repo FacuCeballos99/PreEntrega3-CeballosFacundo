@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.headermio {
+ position: sticky;
+ z-index: 1030;
+ max-width: 100vw;
+ top: 0px;
+}
+.colornavmio {
+    background-color: $color-principal;
+    width: 100%;
+}
+.navitem {
+    width: 45px;
+}
+.imgnavmio {
+    width: 60px;
+    height: auto;
+}
